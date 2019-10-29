@@ -15,3 +15,5 @@ pipe(
   dst
 )
 ```
+
+Also exposes `.toBuffer()` (the same as above) and `.toList()` (returns BufferLists instead of Buffers)

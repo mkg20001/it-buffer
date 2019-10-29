@@ -13,3 +13,17 @@ module.exports = async function * (source) {
     }
   }
 }
+
+module.exports.toBuffer = module.exports
+
+module.exports.toList = async function * (source) {
+  for await (const b of source) {
+    if (Buffer.isBuffer(b)) {
+      yield new BufferList().append(b)
+    } else if (BufferList.isBufferList(b)) {
+      yield b
+    } else {
+      yield new BufferList().append(Buffer.from(b))
+    }
+  }
+}
