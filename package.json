@@ -1,0 +1,26 @@
+{
+  "name": "it-buffer",
+  "version": "0.0.1",
+  "description": "Is it a string? Is it a BufferList? Or just a Buffer? Worry no more with `it-buffer`!",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -A"
+  },
+  "keywords": [
+    "async",
+    "iterables",
+    "buffer",
+    "convert",
+    "transform"
+  ],
+  "author": "Maciej Krüger <mkg20001@gmail.com>",
+  "license": "MPL-2.0",
+  "devDependencies": {
+    "it-pipe": "^1.1.0",
+    "mocha": "^6.2.2",
+    "streaming-iterables": "^4.1.1"
+  },
+  "dependencies": {
+    "bl": "^4.0.0"
+  }
+}
