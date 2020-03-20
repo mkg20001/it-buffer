@@ -1,7 +1,7 @@
 'use strict'
 
 /* eslint-env mocha */
-
+const { Buffer } = require('buffer')
 const assert = require('assert').strict
 const { collect } = require('streaming-iterables')
 const pipe = require('it-pipe')
