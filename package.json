@@ -1,6 +1,6 @@
 {
   "name": "it-buffer",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Is it a string? Is it a BufferList? Or just a Buffer? Worry no more with `it-buffer`!",
   "main": "index.js",
   "scripts": {
