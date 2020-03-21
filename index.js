@@ -1,5 +1,6 @@
 'use strict'
 
+const { Buffer } = require('buffer')
 const BufferList = require('bl/BufferList')
 
 module.exports = async function * (source) {
